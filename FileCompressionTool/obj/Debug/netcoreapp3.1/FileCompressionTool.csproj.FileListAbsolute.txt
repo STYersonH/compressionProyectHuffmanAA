@@ -39,3 +39,26 @@ C:\Users\Chirinos\source\repos\File-Compression-Tool-using-Huffman-Coding-Algori
 C:\Users\Chirinos\source\repos\File-Compression-Tool-using-Huffman-Coding-Algorithm\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.dll
 C:\Users\Chirinos\source\repos\File-Compression-Tool-using-Huffman-Coding-Algorithm\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.pdb
 C:\Users\Chirinos\source\repos\File-Compression-Tool-using-Huffman-Coding-Algorithm\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.genruntimeconfig.cache
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\FileCompressionTool.exe
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\FileCompressionTool.deps.json
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\FileCompressionTool.runtimeconfig.json
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\FileCompressionTool.runtimeconfig.dev.json
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\FileCompressionTool.dll
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\FileCompressionTool.pdb
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\GemBox.Document.dll
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\itextsharp.dll
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\Microsoft.Office.Interop.Word.dll
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\GemBox.Document.dll
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.csproj.AssemblyReference.cache
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form1.resources
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Properties.Resources.resources
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.csproj.GenerateResource.cache
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.GeneratedMSBuildEditorConfig.editorconfig
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.AssemblyInfoInputs.cache
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.AssemblyInfo.cs
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.csproj.CoreCompileInputs.cache
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.csproj.CopyComplete
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.dll
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.pdb
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.genruntimeconfig.cache
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form2.resources

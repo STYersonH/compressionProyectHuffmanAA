@@ -28,7 +28,7 @@ namespace Algorithm_Implementation
             System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
             System.Windows.Forms.Application.EnableVisualStyles();
             System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
-            System.Windows.Forms.Application.Run(new Form1());
+            System.Windows.Forms.Application.Run(new Form2());
         }
 
         static public void CompressTextFile(string filePath,string binFilePath,string codingSchemePath)
