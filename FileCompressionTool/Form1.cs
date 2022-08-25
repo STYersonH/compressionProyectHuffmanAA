@@ -286,6 +286,11 @@ namespace FileCompressionTool
                 textBox7.Text = openFileDialog1.FileName;
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
