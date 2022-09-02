@@ -62,3 +62,7 @@ E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\Fi
 E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.pdb
 E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.genruntimeconfig.cache
 E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form2.resources
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form3.resources
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form4.resources
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form5.resources
+E:\SEMESTRE 2022 - I\2022-I\Algoritmos avanzados\PROYECTO\Avance del proyecto\FileCompressionTool\FileCompressionTool\obj\Debug\netcoreapp3.1\FileCompressionTool.Form6.resources
