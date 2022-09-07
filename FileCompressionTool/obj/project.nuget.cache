@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k6Xh/DpKo5XJMf0EQJ00/oUVj8A+fSX9w/dx8bn4c162H6+0WAq+O3sqv+LQLR/qHnQ6t2HpK8D2KNWAo2nXrw==",
+  "dgSpecHash": "3MY00PTLVVub1TybFgyKp0Il70g85iPx8GJQO1ix8bYCWZ7AHGclQgihMNVW5sXNBDBmMohyk1c8067tw60rAQ==",
   "success": true,
-  "projectFilePath": "E:\\SEMESTRE 2022 - I\\2022-I\\Algoritmos avanzados\\PROYECTO\\Avance del proyecto\\FileCompressionTool\\FileCompressionTool\\FileCompressionTool.csproj",
+  "projectFilePath": "E:\\SEMESTRE 2022 - I\\2022-I\\Algoritmos avanzados\\Proyecto - Code\\compressionProyectHuffmanAA\\FileCompressionTool\\FileCompressionTool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chirinos\\.nuget\\packages\\gembox.document\\31.0.1239\\gembox.document.31.0.1239.nupkg.sha512",
     "C:\\Users\\Chirinos\\.nuget\\packages\\itextsharp\\5.5.13.1\\itextsharp.5.5.13.1.nupkg.sha512",
