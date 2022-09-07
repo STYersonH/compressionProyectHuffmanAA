@@ -25,7 +25,9 @@ namespace FileCompressionTool
             string filePath = openFileDialog2.FileName;         // save the path of file from open dialogue box into string variable
             string binPath = filePath;                          // set the path for .bin file
             string codingSchemePath = filePath;
-            
+            string s1 = filePath;
+            string s2 = filePath;
+
             // Remove the existing extension of input file and change it intp _codingScheme.txt
             int index = codingSchemePath.IndexOf(".");
             if (index > 0)
@@ -48,18 +50,18 @@ namespace FileCompressionTool
             if (extension == ".docx")
             {
                 // call the function CompressDocxFile for compressing the .docx file using given .bn file
-                Program.CompressDocxFile(filePath, binPath,codingSchemePath);
+                Program.CompressDocxFile(filePath, binPath,codingSchemePath,s1,s2);
 
             }
             else if (extension == ".txt")
             {
                 // Call the function to compress the text file
-                Program.CompressTextFile(filePath, binPath,codingSchemePath);
+                Program.CompressTextFile(filePath, binPath,codingSchemePath, s1, s2);
             }
             else if (extension == ".pdf")
             {
                 // Call the function to compress the pdf file
-                Program.CompressPdfFile(filePath, binPath,codingSchemePath);
+                Program.CompressPdfFile(filePath, binPath,codingSchemePath, s1, s2);
             }
         }
 
@@ -106,7 +108,9 @@ namespace FileCompressionTool
                 string filePath = openFileDialog1.FileName;         // get the file path in filePath variable from open dialog box
                 string binPath = filePath;
                 string ExtractPath = filePath;
-                
+                string s1 = filePath;
+                string s2 = filePath;
+
                 // remove the extension of file and add new extension _extracted.txt
                 int index = ExtractPath.IndexOf(".");
                 if (index > 0)
@@ -116,7 +120,7 @@ namespace FileCompressionTool
                 ExtractPath = ExtractPath + "_extracted.txt";       // concatination of string
                 textBox4.Text = ExtractPath;
                 textBox3.Text = filePath;
-                Program.ExtractTextFile(binPath, ExtractPath);
+                Program.ExtractTextFile(binPath, ExtractPath,s1,s2);
 
                 //ExtractPath = ExtractPath + ".txt";
                 //textBox1.Text = binPath;
@@ -205,7 +209,9 @@ namespace FileCompressionTool
                 string filePath = openFileDialog1.FileName;         // save the path of file opened in string variable
                 string binPath = filePath;
                 string ExtractPath = filePath;
-                
+                string s1 = filePath;
+                string s2 = filePath;
+
                 // change the extension of file to _extracted.pdf
                 int index = ExtractPath.IndexOf(".");
                 if (index > 0)
@@ -215,7 +221,7 @@ namespace FileCompressionTool
                 ExtractPath = ExtractPath + "_extracted.pdf";           // concatenation string
                 textBox5.Text = ExtractPath;
                 textBox6.Text = filePath;
-                Program.ExtractPdfFile(binPath, ExtractPath);
+                Program.ExtractPdfFile(binPath, ExtractPath, s1, s2);
             
         }
 
@@ -240,6 +246,8 @@ namespace FileCompressionTool
                 string filePath = openFileDialog1.FileName;          // get the file path in filePath variable from open dialog box
                 string binPath = filePath;
                 string ExtractPath = filePath;
+                string s1 = filePath;
+                string s2 = filePath;
                 int index = ExtractPath.IndexOf(".");           // save the index of "."
                 // change the extension to _extracted.docx
                 if (index > 0)
@@ -249,7 +257,7 @@ namespace FileCompressionTool
                 ExtractPath = ExtractPath + "_extracted.docx";      // concatination of string
                 textBox8.Text = ExtractPath;
                 textBox7.Text = filePath;
-                Program.ExtractDocxFile(binPath, ExtractPath);
+                Program.ExtractDocxFile(binPath, ExtractPath, s1, s2);
             
         }
 

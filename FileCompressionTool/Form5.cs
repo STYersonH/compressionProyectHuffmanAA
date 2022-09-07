@@ -16,12 +16,6 @@ namespace FileCompressionTool
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-            StreamReader sr = new StreamReader("DatosUsuario.txt");
-            string usuario = sr.ReadLine();
-            label2.Text = usuario;
-        }
 
         private void btnEnviarArchivo_Click(object sender, EventArgs e)
         {
@@ -30,5 +24,14 @@ namespace FileCompressionTool
 
             this.Hide();
         }
+
+        private void btnObtenerArchivoOriginal_Click(object sender, EventArgs e)
+        {
+            Form7 decodificar = new Form7();
+            decodificar.Show();
+
+            this.Hide();
+        }
+
     }
 }
