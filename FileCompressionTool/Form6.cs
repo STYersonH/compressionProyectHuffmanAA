@@ -73,14 +73,18 @@ namespace FileCompressionTool
                     string filePath = archivo;
                     string binPath = filePath;                          // set the path for .bin file
                     string codingSchemePath = filePath;
+                    string baseRuta = filePath;
 
                     // Remove the existing extension of input file and change it intp _codingScheme.txt
                     int index = codingSchemePath.IndexOf(".");
                     if (index > 0)
                     {
-                        codingSchemePath = codingSchemePath.Substring(0, index);
+                        baseRuta = codingSchemePath.Substring(0, index);
                     }
-                    codingSchemePath = codingSchemePath + "_codingScheme.txt";      // concate the string
+                    string ocurrencia = baseRuta + "_Ocurrencia.txt";
+                    string caracteres = baseRuta + "_Caracteres.bin";
+                    codingSchemePath = baseRuta + "_codingScheme.txt";      // concate the string
+                    
 
                     index = binPath.IndexOf(".");
                     if (index > 0)
@@ -91,14 +95,20 @@ namespace FileCompressionTool
                     if (filePath.Contains("txt"))
                     {
                         binPath = binPath + "txt.bin";         // concate the string with .bin
+                        ocurrencia = baseRuta + "txt_Ocurrencia.txt";
+                        caracteres = baseRuta + "txt_Caracteres.bin";
                     }
                     else if (filePath.Contains("pdf"))
                     {
                         binPath = binPath + "pdf.bin";         // concate the string with .bin
+                        ocurrencia = baseRuta + "pdf_Ocurrencia.txt";
+                        caracteres = baseRuta + "pdf_Caracteres.bin";
                     }
                     else if (filePath.Contains("docx"))
                     {
                         binPath = binPath + "docx.bin";         // concate the string with .bin
+                        ocurrencia = baseRuta + "docx_Ocurrencia.txt";
+                        caracteres = baseRuta + "docx_Caracteres.bin";
                     }
 
 
@@ -107,20 +117,22 @@ namespace FileCompressionTool
                     if (extension == ".docx")
                     {
                         // call the function CompressDocxFile for compressing the .docx file using given .bn file
-                        Program.CompressDocxFile(filePath, binPath, codingSchemePath);
+                        Program.CompressDocxFile(filePath, binPath, codingSchemePath, ocurrencia, caracteres);
                     }
                     else if (extension == ".txt")
                     {
                         // Call the function to compress the text file
-                        Program.CompressTextFile(filePath, binPath, codingSchemePath);
+                        Program.CompressTextFile(filePath, binPath, codingSchemePath, ocurrencia, caracteres);
                     }
                     else if (extension == ".pdf")
                     {
                         // Call the function to compress the pdf file
-                        Program.CompressPdfFile(filePath, binPath, codingSchemePath);
+                        Program.CompressPdfFile(filePath, binPath, codingSchemePath, ocurrencia, caracteres);
                     }
 
                     correo.adjuntos.Add(binPath); //funcion clave
+                    correo.adjuntos.Add(ocurrencia);
+                    correo.adjuntos.Add(caracteres);
 
                 }
             }

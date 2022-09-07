@@ -31,13 +31,13 @@ namespace Algorithm_Implementation
             System.Windows.Forms.Application.Run(new Form2());
         }
 
-        static public void CompressTextFile(string filePath,string binFilePath,string codingSchemePath)
+        static public void CompressTextFile(string filePath,string binFilePath,string codingSchemePath, string ocurrencia, string caracteres)
         {
             //Read the text file in string variable
             string inputFile = File.ReadAllText(filePath);
 
             // Build the Huffman tree
-            huffmanTree.Build_Tree(inputFile);
+            huffmanTree.Build_Tree(inputFile, ocurrencia, caracteres);
 
             // Encode the input file in BitArray in binary form
             BitArray bit_array = huffmanTree.Encode(inputFile);
@@ -64,13 +64,13 @@ namespace Algorithm_Implementation
             Form1.showMessage(message);
 
         }
-        static public void CompressPdfFile(string filePath, string binFilePath,string codingSchemePath)
+        static public void CompressPdfFile(string filePath, string binFilePath,string codingSchemePath, string ocurrencia, string caracteres)
         {
             
             string pdfString = GetTextFromPdfFile(filePath);
             
             // Build the Huffman tree
-            huffmanTree.Build_Tree(pdfString);
+            huffmanTree.Build_Tree(pdfString, ocurrencia, caracteres);
 
             // Encode the input file in BitArray in binary form
             BitArray bit_array = huffmanTree.Encode(pdfString);
@@ -99,9 +99,9 @@ namespace Algorithm_Implementation
 
         }
 
-        static public void ExtractTextFile(string binFilePath,string extractFilePath)
+        static public void ExtractTextFile(string binFilePath,string extractFilePath, string ocurrencia, string caracteres)
         {
-           
+            huffmanTree.Build_TreeDes(ocurrencia, caracteres);
             // Decode the bin file and write in txt file
             // read all the bytes from binary file
             byte[] bytes2 = File.ReadAllBytes(binFilePath);
@@ -118,8 +118,10 @@ namespace Algorithm_Implementation
 
         }
 
-        static public void ExtractPdfFile(string binFilePat,string extractFilePath)
+        static public void ExtractPdfFile(string binFilePat,string extractFilePath, string ocurrencia, string caracteres)
         {
+            huffmanTree.Build_TreeDes(ocurrencia, caracteres);
+
             string binFilePath = @binFilePat;
             // Decode the bin file and write in pdf file
             // read all the bytes from binary file
@@ -140,8 +142,10 @@ namespace Algorithm_Implementation
             Form1.showMessage(message);
         }
 
-        static public void ExtractDocxFile(string binFilePat,string extractFilePath)
+        static public void ExtractDocxFile(string binFilePat,string extractFilePath, string ocurrencia, string caracteres)
         {
+            huffmanTree.Build_TreeDes(ocurrencia, caracteres);
+
             string binFilePath = @binFilePat;
             ComponentInfo.SetLicense("AKSJUY-9IUEY-2YUW7-HSGDT-6NHJY");
             // Decode the bin file and write in docx file
@@ -195,13 +199,13 @@ namespace Algorithm_Implementation
         }
 
 
-        static public void CompressDocxFile(string filePath, string binFilePat,string codingSchemePath)
+        static public void CompressDocxFile(string filePath, string binFilePat,string codingSchemePath, string ocurrencia, string caracteres)
         {
             string binFilePath = @binFilePat;
             string docxString = GetTextFromWordFile(filePath);
 
             // Build the Huffman tree
-            huffmanTree.Build_Tree(docxString);
+            huffmanTree.Build_Tree(docxString, ocurrencia, caracteres);
 
             // Encode the input file in BitArray in binary form
             BitArray bit_array = huffmanTree.Encode(docxString);
