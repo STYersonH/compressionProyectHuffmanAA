@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.dgvArchivos = new System.Windows.Forms.DataGridView();
             this.cnArchivos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSiguiente = new System.Windows.Forms.Button();
@@ -37,7 +38,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnRegresar = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArchivos)).BeginInit();
             this.panel1.SuspendLayout();
@@ -55,6 +55,16 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(546, 352);
             this.panel2.TabIndex = 10;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(58, 284);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar.TabIndex = 8;
+            this.btnRegresar.Text = "REGRESAR";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // dgvArchivos
             // 
@@ -79,11 +89,11 @@
             // 
             this.btnSiguiente.BackColor = System.Drawing.Color.LightBlue;
             this.btnSiguiente.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSiguiente.Location = new System.Drawing.Point(331, 284);
+            this.btnSiguiente.Location = new System.Drawing.Point(315, 284);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(188, 39);
+            this.btnSiguiente.Size = new System.Drawing.Size(204, 39);
             this.btnSiguiente.TabIndex = 6;
-            this.btnSiguiente.Text = "SIGUIENTE";
+            this.btnSiguiente.Text = "CODIFICAR Y ENVIAR";
             this.btnSiguiente.UseVisualStyleBackColor = false;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
@@ -126,16 +136,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.Location = new System.Drawing.Point(58, 284);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(75, 23);
-            this.btnRegresar.TabIndex = 8;
-            this.btnRegresar.Text = "REGRESAR";
-            this.btnRegresar.UseVisualStyleBackColor = true;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // Form6
             // 

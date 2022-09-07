@@ -87,7 +87,20 @@ namespace FileCompressionTool
                     {
                         binPath = binPath.Substring(0, index);
                     }
-                    binPath = binPath + ".bin";         // concate the string with .bin
+
+                    if (filePath.Contains("txt"))
+                    {
+                        binPath = binPath + "txt.bin";         // concate the string with .bin
+                    }
+                    else if (filePath.Contains("pdf"))
+                    {
+                        binPath = binPath + "pdf.bin";         // concate the string with .bin
+                    }
+                    else if (filePath.Contains("docx"))
+                    {
+                        binPath = binPath + "docx.bin";         // concate the string with .bin
+                    }
+
 
                     // Get the extension of input file
                     string extension = Path.GetExtension(filePath);
@@ -95,7 +108,6 @@ namespace FileCompressionTool
                     {
                         // call the function CompressDocxFile for compressing the .docx file using given .bn file
                         Program.CompressDocxFile(filePath, binPath, codingSchemePath);
-
                     }
                     else if (extension == ".txt")
                     {

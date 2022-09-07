@@ -118,9 +118,9 @@ namespace Algorithm_Implementation
 
         }
 
-        static public void ExtractPdfFile(string binFilePath,string extractFilePath)
+        static public void ExtractPdfFile(string binFilePat,string extractFilePath)
         {
-           
+            string binFilePath = @binFilePat;
             // Decode the bin file and write in pdf file
             // read all the bytes from binary file
             byte[] bytes2 = File.ReadAllBytes(binFilePath);
@@ -140,9 +140,9 @@ namespace Algorithm_Implementation
             Form1.showMessage(message);
         }
 
-        static public void ExtractDocxFile(string binFilePath,string extractFilePath)
+        static public void ExtractDocxFile(string binFilePat,string extractFilePath)
         {
-            
+            string binFilePath = @binFilePat;
             ComponentInfo.SetLicense("AKSJUY-9IUEY-2YUW7-HSGDT-6NHJY");
             // Decode the bin file and write in docx file
             // read all the bytes from binary file
@@ -195,8 +195,9 @@ namespace Algorithm_Implementation
         }
 
 
-        static public void CompressDocxFile(string filePath, string binFilePath,string codingSchemePath)
+        static public void CompressDocxFile(string filePath, string binFilePat,string codingSchemePath)
         {
+            string binFilePath = @binFilePat;
             string docxString = GetTextFromWordFile(filePath);
 
             // Build the Huffman tree

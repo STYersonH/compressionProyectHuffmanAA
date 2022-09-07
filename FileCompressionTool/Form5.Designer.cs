@@ -30,10 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnObtenerArchivoOriginal = new System.Windows.Forms.Button();
             this.btnEnviarArchivo = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lbNombre = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -49,14 +48,24 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.btnObtenerArchivoOriginal);
             this.panel2.Controls.Add(this.btnEnviarArchivo);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.lbNombre);
             this.panel2.Location = new System.Drawing.Point(116, 36);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(291, 352);
             this.panel2.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.Location = new System.Drawing.Point(31, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(242, 37);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "HOLA USUARIO!";
             // 
             // btnObtenerArchivoOriginal
             // 
@@ -68,6 +77,7 @@
             this.btnObtenerArchivoOriginal.TabIndex = 5;
             this.btnObtenerArchivoOriginal.Text = "OBTENER ARCHIVO ORIGINAL";
             this.btnObtenerArchivoOriginal.UseVisualStyleBackColor = false;
+            this.btnObtenerArchivoOriginal.Click += new System.EventHandler(this.btnObtenerArchivoOriginal_Click);
             // 
             // btnEnviarArchivo
             // 
@@ -80,30 +90,6 @@
             this.btnEnviarArchivo.Text = "ENVIAR ARCHIVO";
             this.btnEnviarArchivo.UseVisualStyleBackColor = false;
             this.btnEnviarArchivo.Click += new System.EventHandler(this.btnEnviarArchivo_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(65, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 24);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "USUARIO NUEVO";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // lbNombre
-            // 
-            this.lbNombre.AutoSize = true;
-            this.lbNombre.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbNombre.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lbNombre.Location = new System.Drawing.Point(117, 65);
-            this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(63, 24);
-            this.lbNombre.TabIndex = 2;
-            this.lbNombre.Text = "HOLA!";
             // 
             // panel1
             // 
@@ -179,8 +165,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
@@ -189,5 +173,6 @@
         private System.Windows.Forms.Button btnObtenerArchivoOriginal;
         private System.Windows.Forms.Button btnEnviarArchivo;
         private System.Windows.Forms.Label usuario;
+        private System.Windows.Forms.Label label2;
     }
 }
